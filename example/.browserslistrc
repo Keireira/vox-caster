@@ -1,0 +1,9 @@
+[development]
+last 1 version
+
+[production]
+>0.5% in RU
+last 2 versions
+not dead
+not ie <= 11
+not op_mini all
