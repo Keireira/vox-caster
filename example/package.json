@@ -27,6 +27,7 @@
     "react-scripts": "link:../node_modules/react-scripts",
 		"typescript": "link:../node_modules/typescript",
 		"styled-components": "link:../node_modules/styled-components",
+		"@material-ui/core": "link:../node_modules/@material-ui/core",
     "vox-caster": "link:.."
 	},
   "devDependencies": {

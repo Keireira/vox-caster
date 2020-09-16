@@ -24,6 +24,8 @@ const General = createGlobalStyle`
 		margin: 0 auto;
 		flex-direction: column;
 		align-items: center;
+
+		min-height: 100vh;
 	}
 `
 

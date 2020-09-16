@@ -1,8 +1,12 @@
 import React from 'react'
 
+import Vox from 'vox-caster'
+
 const ExamplePage: React.FC<{}> = () => {
 	return (
-		<div>ExamplePage</div>
+		<div>
+			<Vox text="Rede"/>
+		</div>
 	)
 }
 

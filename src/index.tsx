@@ -6,7 +6,16 @@ interface Props {
 
 const ExampleComponent: React.FC<Props> = ({ text }: Props) => {
 	return (
-		<div>Example: {text}</div>
+		<div>
+			<div>
+				<div>Chat Message {text}</div>
+				<div>Chat Message {text}</div>
+				<div>Chat Message {text}</div>
+				<div>Chat Message {text}</div>
+			</div>
+
+			<div>Chat TextInput</div>
+		</div>
 	)
 }
 
