@@ -1,7 +1,8 @@
-import './index.css'
+import 'module-alias/register';
 
 import React from 'react'
 import ReactDOM from 'react-dom'
-import App from './App'
 
-ReactDOM.render(<App />, document.getElementById('root'))
+import Root from './@core/Root'
+
+ReactDOM.render(<Root />, document.getElementById('root'))

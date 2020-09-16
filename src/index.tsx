@@ -1,10 +1,13 @@
-import * as React from 'react'
-import styles from './styles.module.css'
+import React from 'react'
 
 interface Props {
   text: string
 }
 
-export const ExampleComponent = ({ text }: Props) => {
-  return <div className={styles.test}>Example Component: {text}</div>
+const ExampleComponent: React.FC<Props> = ({ text }: Props) => {
+	return (
+		<div>Example: {text}</div>
+	)
 }
+
+export default ExampleComponent
